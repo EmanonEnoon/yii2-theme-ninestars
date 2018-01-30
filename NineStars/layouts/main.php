@@ -4,13 +4,13 @@
 
 /* @var $content string */
 
-use app\themes\NineStars\NineStars;
+use app\themes\NineStars\NineStarsAsset;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
 
-NineStars::register($this);
+NineStarsAsset::register($this);
 
 /** @var \yii\base\Theme $theme */
 $theme = $this->theme;
